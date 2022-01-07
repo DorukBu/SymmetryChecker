@@ -1,4 +1,5 @@
 
+![SymmCheck-Logo-2-crop](https://user-images.githubusercontent.com/54140709/148549727-ffbfaec0-a9e3-48f1-8464-7dbbfe61efa3.png)
 # Symmetry Checker 
 ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DorukBu/SymmetryChecker)
