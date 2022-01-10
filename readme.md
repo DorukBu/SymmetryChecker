@@ -11,3 +11,10 @@
 - Wild card presence in the string
 - Imputation of the wildcard with the mirroring letter
 - Possible permutations generated with the set of letters in the string if there are mirroring wild cards
+
+### Coming up:
+- Symmetry Checker Serverless App
+  - Frontend: Anvil
+  - Backend: AWS API Gateway, Lambda, Dynamo DB (undecided)
+- Symmetry Checker in Golang!
+- Python vs Golang performance comparison
