@@ -18,3 +18,4 @@
   - Backend: AWS API Gateway, Lambda, Dynamo DB (undecided)
 - Symmetry Checker in Golang!
 - Python vs Golang performance comparison
+- CI/ CD pipeline w/ AWS CodePipeline
