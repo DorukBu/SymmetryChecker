@@ -14,7 +14,7 @@
 - Possible permutations generated with the set of letters in the string if there are mirroring wild cards
 
 ### Coming up:
-[x] Symmetry Checker Serverless App (Frontend: Anvil, Backend: AWS API Gateway, Lambda)
-[] Symmetry Checker in Golang!
-[] Python vs Golang performance comparison
-[] CI/ CD pipeline w/ AWS CodePipeline
+- [x] Symmetry Checker Serverless App (Frontend: Anvil, Backend: AWS API Gateway, Lambda)
+- [] Symmetry Checker in Golang!
+- [] Python vs Golang performance comparison
+- [] CI/ CD pipeline w/ AWS CodePipeline
