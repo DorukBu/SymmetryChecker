@@ -18,5 +18,5 @@ jobs:
         aws-region: eu-central-1
     - name: deploy
       run: |
-        zip deploy.zip ./symmcheck-2.py
+        zip deploy.zip ./src/symmcheck-2.py
         aws lambda update-function-code --function-name=TestAPI_Lambda --zip-file=fileb://deploy.zip
