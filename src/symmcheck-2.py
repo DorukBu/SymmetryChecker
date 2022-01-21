@@ -3,7 +3,7 @@
 ## -comment content and comment hierarchy check
 ##
 
-
+import json
 from itertools import product
 
 def symmchecker(stringParam):     ## wildcards parameter can be implemented w/ args kwargs 
@@ -113,4 +113,16 @@ def symmchecker(stringParam):     ## wildcards parameter can be implemented w/ a
     message = 'Error: Case escape #3'
 
   ### Print message
-  print(message.format(givenstring = stringParam, strwithimputation = imputationresult, strwithalcombis = finalcombiresult, count = combicount))
+  return reply = message.format(givenstring = stringParam, strwithimputation = imputationresult, strwithalcombis = finalcombiresult, count = combicount)
+
+def lambda_handler(event, context):
+    # implement a simple message return
+
+    queryString = event['queryStringParameters']['string']
+
+    response = symmchecker(queryString)
+
+    return {
+        'statusCode': 200,
+        'body': json.dumps(response)
+    }
