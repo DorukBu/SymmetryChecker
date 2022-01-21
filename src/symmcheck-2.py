@@ -112,8 +112,8 @@ def symmchecker(stringParam):     ## wildcards parameter can be implemented w/ a
   else:
     message = 'Error: Case escape #3'
 
-  ### Print message
-  return reply = message.format(givenstring = stringParam, strwithimputation = imputationresult, strwithalcombis = finalcombiresult, count = combicount)
+  reply = message.format(givenstring = stringParam, strwithimputation = imputationresult, strwithalcombis = finalcombiresult, count = combicount)
+  return reply
 
 def lambda_handler(event, context):
     # implement a simple message return
