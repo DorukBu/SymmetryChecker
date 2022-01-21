@@ -1,0 +1,22 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  deploy_lambda:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: eu-central-1
+    - name: deploy
+      run: |
+        zip deploy.zip symmcheck-2.py
+        aws lambda update-function-code --function-name=TestAPI_Lambda --zip-file=fileb://deploy.zip

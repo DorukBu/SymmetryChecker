@@ -73,7 +73,7 @@ def symmchecker(stringParam):     ## wildcards parameter can be implemented w/ a
   elif symmetry == True:
     ### there are no wildcards in the string and the string is symmetrical
     if (len(sngwcardindex) == 0) & (len(dblwcardindex) == 0):
-      message = 'The string "{givenstring}" is symmetrical without the help of any wildcard.'
+      message = 'The string "{givenstring}" is symmetrical without the help of any wildcard..'
 
     ### there are only non-symmetrical wildcards and the string is symmetrical thanks to them. Convert wildcard values to mirroring letters.
     elif (len(sngwcardindex) != 0):
