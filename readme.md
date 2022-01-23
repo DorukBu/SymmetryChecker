@@ -15,6 +15,6 @@
 
 ### Coming up:
 - [x] Symmetry Checker Serverless App (Frontend: Anvil, Backend: AWS API Gateway, Lambda)
+- [x] CI/ CD pipeline w/ GitHub Actions
 - [ ] Symmetry Checker in Golang!
 - [ ] Python vs Golang performance comparison
-- [ ] CI/ CD pipeline w/ AWS CodePipeline
