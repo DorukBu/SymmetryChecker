@@ -7,7 +7,7 @@
 ![GitHub licence](https://img.shields.io/github/license/DorukBu/SymmetryChecker)
 ### [Serverless App Link](https://gfd5am4e4y5ibd3v.anvil.app/RLOYURWSHZRSZBAJ4EXIHAF3)
 
-#### Symmetry Checker checks a given strings symmetry with regards to the wild card '?' and returns a message containing:
+#### Symmetry Checker checks a given strings symmetry keeping the wild card '?' in mind, and returns a message containing:
 - Strings symmetry status
 - Wild card presence in the string
 - Imputation of the wildcard with the mirroring letter
